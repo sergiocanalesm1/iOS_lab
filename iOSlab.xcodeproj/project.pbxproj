@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		7C42D28D25F2067300F688BE /* iOSlabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C42D28C25F2067300F688BE /* iOSlabApp.swift */; };
-		7C42D28F25F2067300F688BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C42D28E25F2067300F688BE /* ContentView.swift */; };
 		7C42D29125F2067600F688BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C42D29025F2067600F688BE /* Assets.xcassets */; };
 		7C42D29425F2067600F688BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C42D29325F2067600F688BE /* Preview Assets.xcassets */; };
 		7C42D29F25F2067600F688BE /* iOSlabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C42D29E25F2067600F688BE /* iOSlabTests.swift */; };
 		7C42D2AA25F2067600F688BE /* iOSlabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C42D2A925F2067600F688BE /* iOSlabUITests.swift */; };
+		7C42D2BE25F227DC00F688BE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C42D2BD25F227DC00F688BE /* HomeView.swift */; };
+		7C42D2C325F2283F00F688BE /* LoginVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C42D2C225F2283F00F688BE /* LoginVIew.swift */; };
+		7C42D2CE25F2292F00F688BE /* MyFirstAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C42D2CD25F2292F00F688BE /* MyFirstAppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +37,6 @@
 /* Begin PBXFileReference section */
 		7C42D28925F2067300F688BE /* iOSlab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSlab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C42D28C25F2067300F688BE /* iOSlabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSlabApp.swift; sourceTree = "<group>"; };
-		7C42D28E25F2067300F688BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7C42D29025F2067600F688BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C42D29325F2067600F688BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7C42D29525F2067600F688BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +46,9 @@
 		7C42D2A525F2067600F688BE /* iOSlabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSlabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C42D2A925F2067600F688BE /* iOSlabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSlabUITests.swift; sourceTree = "<group>"; };
 		7C42D2AB25F2067600F688BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C42D2BD25F227DC00F688BE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7C42D2C225F2283F00F688BE /* LoginVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVIew.swift; sourceTree = "<group>"; };
+		7C42D2CD25F2292F00F688BE /* MyFirstAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstAppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				7C42D28C25F2067300F688BE /* iOSlabApp.swift */,
-				7C42D28E25F2067300F688BE /* ContentView.swift */,
+				7C42D2BD25F227DC00F688BE /* HomeView.swift */,
+				7C42D2C225F2283F00F688BE /* LoginVIew.swift */,
+				7C42D2CD25F2292F00F688BE /* MyFirstAppView.swift */,
 				7C42D29025F2067600F688BE /* Assets.xcassets */,
 				7C42D29525F2067600F688BE /* Info.plist */,
 				7C42D29225F2067600F688BE /* Preview Content */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C42D28F25F2067300F688BE /* ContentView.swift in Sources */,
+				7C42D2C325F2283F00F688BE /* LoginVIew.swift in Sources */,
+				7C42D2CE25F2292F00F688BE /* MyFirstAppView.swift in Sources */,
 				7C42D28D25F2067300F688BE /* iOSlabApp.swift in Sources */,
+				7C42D2BE25F227DC00F688BE /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
