@@ -28,6 +28,7 @@ struct HomeView: View {
                     .multilineTextAlignment(.center)
                 NavigationLink(
                     destination: LoginView()
+                        //.preferredColorScheme(.dark)
                 ) {
                     Text("GO!")
                         .frame(minWidth: 0, maxWidth: 70,
@@ -44,3 +45,9 @@ struct HomeView: View {
     }
 }
 
+
+struct HomeView_Previews: PreviewProvider {
+    static var previews: some View {
+        HomeView()
+    }
+}
